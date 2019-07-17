@@ -4,7 +4,7 @@ npm i cypress cypress-image-snapshot --save
 
 ##Add to the following indexes:
 
-###Cypress/Integration/plugins:
+###Cypress/plugins/index:
 
 ```
 const { addMatchImageSnapshotPlugin } = require('cypress-image-snapshot/plugin')
@@ -14,10 +14,18 @@ module.exports = (on, config) => {
 }
 ```
 
-###Cypress/Integration/commands:
+###Cypress/support/commands:
 ```
 const { addMatchImageSnapshotCommand } = require('cypress-image-snapshot/command')
 addMatchImageSnapshotCommand()
 ```
 
-###Cypress/package.json:
+#Cypress XPath (if desired)
+
+npm i --save cypress-xpath
+
+https://www.w3schools.com/xml/xpath_intro.asp
+
+###Cypress/support/index:
+
+require('cypress-xpath')
