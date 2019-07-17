@@ -1,0 +1,13 @@
+//auot-completes cypress commands
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "baseUrl": "../node_modules",
+        "types": [
+            "cypress"
+        ]
+    },
+    "include": [
+        "**/*.*"
+    ]
+}
