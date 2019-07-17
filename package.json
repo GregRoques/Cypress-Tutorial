@@ -4,12 +4,13 @@
   "description": "Automated Testing with Cypress",
   "main": "index.js",
   "scripts": {
-    "cypress:open": "cypress open"
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
   },
   "keywords": [
     "cypress"
   ],
-  "author": "Greg Roques",
+  "author": "Nacheaux",
   "license": "ISC",
   "dependencies": {
     "cypress": "^3.4.0",
